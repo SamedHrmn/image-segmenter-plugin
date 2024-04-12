@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.image_segmenter_plugin">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <meta-data
+        android:name="com.google.mlkit.vision.DEPENDENCIES"
+        android:value="subject_segment" />
+</manifest>
